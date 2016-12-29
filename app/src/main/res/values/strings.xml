@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">RunIfYouCanLib</string>
+    <string name="action_settings">Settings</string>
+    <string name="rationale">I really need this!</string>
+</resources>
