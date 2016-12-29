@@ -55,7 +55,6 @@ public class RunIfYouCan implements ActivityCompat.OnRequestPermissionsResultCal
                 callback.onPermission(true);
             } else {
                 Log.d(TAG, permission + " permission was NOT granted.");
-                callback.onPermission(false);
             }
         }
 

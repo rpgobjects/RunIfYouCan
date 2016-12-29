@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 runIfYouCan.run(MainActivity.this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, R.string.rationale, new RunIfYouCan.Callback() {
                     @Override
                     public void onPermission(boolean grantedNow) {
-                        Snackbar.make(fab,"Permission granted = " + grantedNow,Snackbar.LENGTH_LONG).show();
+                        Snackbar.make(fab,"Permission granted now = " + grantedNow,Snackbar.LENGTH_LONG).show();
                     }
                 });
             }
